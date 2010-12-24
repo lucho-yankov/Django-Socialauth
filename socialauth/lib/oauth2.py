@@ -258,7 +258,7 @@ class OAuthRequest(object):
     from_request = staticmethod(from_request)
 
     def from_consumer_and_token(oauth_consumer, token=None,
-            http_method=HTTP_METHOD, http_url=None, parameters=None):
+            http_method=HTTP_METHOD, http_url=None, parameters=None, verifier=None):
         if not parameters:
             parameters = {}
 
