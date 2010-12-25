@@ -2,7 +2,7 @@ import httplib
 import urllib2
 import urllib
 import time
-import oauth.oauth as oauth
+import oauth2 as oauth
 from twitter import User
 
 from django.conf import settings
